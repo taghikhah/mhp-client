@@ -24,7 +24,7 @@ class NavBar extends Component {
             <NavLink className="nav-item nav-link" to="/messages">
               Table
             </NavLink>
-            <NavLink className="nav-item nav-link" to="/dashboard">
+            <NavLink className="nav-item nav-link" to="/chart">
               Chart
             </NavLink>
           </div>

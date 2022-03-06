@@ -5,6 +5,7 @@ import NavBar from "./components/navBar";
 import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 import Messages from "./components/messages";
+import Chart from "./components/chart";
 
 class App extends Component {
   render() {
@@ -14,9 +15,7 @@ class App extends Component {
         <NavBar />
         <main className="container">
           <Switch>
-            {/* 
-            <Route path="/movie/:id" component={MovieForm} />
-            <Route path="/movies" component={Movies} /> */}
+            <Route path="/chart" component={Chart} />
             <Route path="/messages" component={Messages} />
             <Redirect from="/" exact to="/messages" />
             <Redirect to="/not-found" />
